@@ -53,3 +53,9 @@ group2.pop(1)
 const finalLi2 = group1.concat(group2)
 console.log(finalLi2)
 
+// ***array slicing
+
+const names = ["name1", "name2", "name3", "name4", "name5", "name6", "name7", "name8", "name9", "name10"]   
+
+const slicedNames = names.slice(0, 2)
+console.log(slicedNames)
