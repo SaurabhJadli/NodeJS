@@ -8,5 +8,15 @@ let SumN = (a) => {
     }
     console.log("sum of " + a + " is " + temp)
 }
-
+console.time()
 SumN(n)
+console.timeEnd()
+
+// Time Complexity O(1)
+console.time();
+
+const num = 1000000000;
+let sum = (num * (num + 1)) / 2;
+
+console.log(sum);
+console.timeEnd();
