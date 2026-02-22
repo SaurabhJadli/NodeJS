@@ -2,7 +2,7 @@ let n = 5
 
 let SumN = (a) => {
     let i = 1
-    temp = 0
+    let temp = 0
     for (i; i <= a; i++) {
         temp += i
     }
@@ -16,7 +16,10 @@ console.timeEnd()
 console.time();
 
 const num = 1000000000;
-let sum = (num * (num + 1)) / 2;
+let sum = (num * (num + 1)) / 2;    // formula to know sum of n numbers
 
 console.log(sum);
 console.timeEnd();
+
+
+// Hence this proves that we should not use loops whenever posible, loops has bad time complexity then expresions
