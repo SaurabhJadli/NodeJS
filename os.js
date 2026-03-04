@@ -1,4 +1,3 @@
-const { log } = require('console');
 const os = require('os');
 
 const userInfo = os.userInfo();
@@ -15,4 +14,3 @@ const currentOS = {
 }
 
 console.log(currentOS);
-
