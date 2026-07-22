@@ -1,4 +1,4 @@
-const a = '1'
+const a = 'a'
 
 const CheckVowel = (a) => {
     if (/^[a-zA-Z]$/.test(a)) {
@@ -21,3 +21,18 @@ const CheckVowel = (a) => {
 }
 
 CheckVowel(a)
+
+const vovi = (a) =>{
+    if(!/^[a-zA-Z]$/.test(a)){
+        console.log("not a alpha")
+        return
+    }
+
+    if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u')
+        console.log("vov")
+
+    else
+        console.log('non vov')
+}
+
+vovi('s')

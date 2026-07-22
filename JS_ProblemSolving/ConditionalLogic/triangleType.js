@@ -1,3 +1,5 @@
+// Cheak If the Triangle is Right Angle Triangle / Equal Triangle / Issosceles Triangle or scalene Triangle
+
 const a = 1
 const b = 4
 const c = 5
