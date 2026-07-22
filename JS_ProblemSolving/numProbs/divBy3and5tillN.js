@@ -1,4 +1,6 @@
-const n = 30
+// Print Numbers from 1 to 'n' Which are Divisible by 3 and 5
+
+const n = 300
 
 const DivBy3and5 = (n) => {
     let i = 0
