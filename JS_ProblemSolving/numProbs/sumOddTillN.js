@@ -1,3 +1,5 @@
+// WAP To Sum All the Odd Numbers Till 'n'
+
 const n = 10
 
 const SumOdd = (n) => {

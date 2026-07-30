@@ -1,3 +1,5 @@
+// WAP To Print Sum Of Numbers Till 'n'
+
 let n = 5
 
 let SumN = (a) => {
@@ -12,6 +14,8 @@ console.time()
 SumN(n)
 console.timeEnd()
 
+// --------------------------------------------------------------
+
 // Time Complexity O(1)
 console.time();
 
@@ -23,3 +27,5 @@ console.timeEnd();
 
 
 // Hence this proves that we should not use loops whenever posible, loops has bad time complexity then expresions
+
+// Check And Use Formulas Whenever Posible Instead Of Loops
