@@ -1,31 +1,37 @@
-const r = 5
+// WAP To make invert Right Triangle like below:
+// *****
+// ****
+// ***
+// **
+// *
 
-// const invertRightTriangle = (r) => {
-//     let i = 0
-//     let j = 1
-//     for (i; i < r; i++) {
-//         let rowSize = r - i
-//         let row = ''
-//         for (j; j <= rowSize; rowSize--) {
-//             row = row + '*'
-//         }
-//         console.log(row)
-//     }
-// }
+const r = 5
 
 // invertRightTriangle(r)
 
-const revTri = (r) => {
-    let i = 1
-    for (i; i <= r; i++) {
-        let j = 0
+// const revTri = (r) => {
+//     let i = 1
+//     for (i; i <= r; i++) {
+//         let j = 0
+//         let star = ''
+//         let rowSize = r - i
+//         for (rowSize; j <= rowSize; rowSize--) {
+//             star = star + '*'
+//         }
+//         console.log(star)
+//     }
+// }
+
+// revTri(r)
+
+const anotherInvert = (n) => {
+    for (let i = 1; i <= n; i++){
         let star = ''
-        let rowSize = r - i
-        for (rowSize; j <= rowSize; rowSize--) {
+        for (let j = i; j <= n; j++) {
             star = star + '*'
         }
         console.log(star)
     }
 }
 
-revTri(r)
+anotherInvert(r)
