@@ -1,3 +1,10 @@
+// WAP To make Right Triangle like below:
+// *
+// **
+// ***
+// ****
+// *****
+
 const r = 5
 
 const rightTriangle = (r) => {
