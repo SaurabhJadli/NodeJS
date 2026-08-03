@@ -1,3 +1,10 @@
+// WAP To Print Hallow Square like below:
+// *****
+// *   *
+// *   *
+// *   *
+// *****
+
 const row = 5
 
 for (let i = 1; i <= row; i++) {
