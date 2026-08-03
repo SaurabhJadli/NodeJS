@@ -7,6 +7,7 @@
 
 const row = 5
 
+const hallowSq = (row) => {
 for (let i = 1; i <= row; i++) {
     let patton = ''
 
@@ -21,3 +22,6 @@ for (let i = 1; i <= row; i++) {
     
 console.log(patton)
 }
+}
+
+hallowSq(row)
