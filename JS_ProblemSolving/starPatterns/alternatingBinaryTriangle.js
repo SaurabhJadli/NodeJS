@@ -1,5 +1,13 @@
+// WAP To Print Alternating Binary Triangle like below:
+// 1
+// 01
+// 101
+// 0101
+// 10101
+
 const row = 5
 
+const binaryTri = (row) => {
 for (let i = 1; i <= row; i++) {
     let pattrn = ''
 
@@ -13,3 +21,6 @@ for (let i = 1; i <= row; i++) {
     }
     console.log(pattrn)
 }
+}
+
+binaryTri(row)
